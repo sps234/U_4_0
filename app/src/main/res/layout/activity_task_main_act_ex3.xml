@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sqlite_ex_3.TaskMainActEx3"
+    android:orientation="vertical"
+
+    >
+
+
+    <EditText
+        android:id="@+id/edT31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        android:hint="TextView"
+        tools:ignore="LabelFor,TextFields" />
+
+    <ImageButton
+        android:id="@+id/imgV31"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/saveBtn31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/showBtn32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lV31"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>

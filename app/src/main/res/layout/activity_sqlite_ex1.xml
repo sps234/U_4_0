@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sqlite_ex_1.SQLiteEx1">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:height="48dp"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/edt2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Age"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:height="48dp"-->
+<!--        />-->
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/img1"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/pickBt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/saveBt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/showBt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_marginTop="20dp"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Name\n\n"-->
+<!--            android:textSize="32sp"-->
+<!--            android:id="@+id/txt1"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Age\n\n"-->
+<!--            android:textSize="32sp"-->
+<!--            android:id="@+id/txt2"/>-->
+
+<!--    </LinearLayout>-->
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
